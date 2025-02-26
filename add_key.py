@@ -64,8 +64,8 @@ def add_correct_answer_to_csv(csv_filename, key_map):
 
 
 def main():
-    csv_filename = 'fce-2024-test-final.csv'
-    key_filename = 'fce-key.txt'
+    csv_filename = 'pet-2024-test-final.csv'
+    key_filename = 'pet-2024-key.txt'
 
     # Load the correct answer mapping from the key file
     key_map = load_key_file(key_filename)

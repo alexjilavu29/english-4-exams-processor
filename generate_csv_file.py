@@ -70,4 +70,4 @@ def generate_csv(txt_file_path, csv_file_path):
             writer.writerow(row)
 
 
-generate_csv('FCE 2024 TEST final.txt', 'fce-2024-test-final.csv')
+generate_csv('CPE 2024 TEST final.txt', 'cpe-2024-test-final.csv')
