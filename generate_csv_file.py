@@ -70,4 +70,7 @@ def generate_csv(txt_file_path, csv_file_path):
             writer.writerow(row)
 
 
-generate_csv('CPE 2024 TEST final.txt', 'cpe-2024-test-final.csv')
+# Generate CSV file from the text file
+texfile_path = 'CPE 2024 TEST final.txt'
+csvfile_path = 'cpe-2024-test-final.csv'
+generate_csv(texfile+path, csvfile_path)
